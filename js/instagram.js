@@ -1,7 +1,7 @@
 const InstagramGallery = (function() { // protect the lemmings
 
     const _internal = {};
-    _internal.base_url = 'http://localhost:9009/';
+    _internal.base_url = 'https://instagramfewd.webscript.io/';
 
 
     function init( client_id = null ) {
