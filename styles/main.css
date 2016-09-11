@@ -113,14 +113,19 @@
 	box-sizing: border-box;
   float: left;
   width: 25%;
-  height: 200px;
-  background: #C09;
   border: 10px solid hsla(0, 25%, 100%, 1);
+  overflow: hidden;
 }
 
 .grid-item--width2 { 
 	width: 25%; 
-	height: 325px;
+}
+
+.grid-item video,
+.grid-item img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
 }
 
 .map-frame {
