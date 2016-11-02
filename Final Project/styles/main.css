@@ -1,0 +1,139 @@
+.box {
+	box-sizing: border-box;
+
+	/* TESTING SPECIFIC ONLY; PLS REMOVE*/
+	/*border: 1px solid black;*/
+	min-height: 50px;
+	font-family: 'Dosis', sans-serif;
+	color:#737373; 
+	padding-right: 15px;
+	padding-left: 15px
+	font-size: 20px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.box--float-left {
+	float: left;
+	margin: 2%;
+	width:20%;
+
+}
+
+
+.box--float-right {
+	/*float: right;*/
+	text-align: center; 
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	/*border-color: #737373;*/
+	padding: 15px;
+	margin-bottom: 40px;
+	color: #737373;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+
+
+
+.nav-bar {
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	margin-top: 2%;
+	padding: 15px;
+	color: #737373;
+	text-decoration: none;
+    
+}
+
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*.hero-image {
+	background-image: url("../images/coworking.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+.hero-box {
+	background-color: rgba(255,255,255, 0.6);
+	margin: 5%;
+	width:40%;
+	/*padding: 10%;*/
+
+	/*font-family: 'Dosis', sans-serif;*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 57px;
+	letter-spacing: 0.5px;
+	line-height: 25px;
+
+	text-align: center;
+    /* float: none; */
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+
+}
+
+.article-box {
+	width: 50%;
+	padding: 15px;
+	padding-top: 40px;
+	/*border: 1px solid #999;
+	border-right: 1px solid #999;*/
+	font-size: 20px;
+	/*font-family:font-family: 'Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+	font-color:#737373;*/
+}
+
+
+.article-row {
+	margin: 10px 0;
+	border: none;
+
+
+}
+
+.map {
+	width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.about-text {
+	font-size: 20px ;
+	font-family: 'Dosis', sans-serif;
+}
+
+.grid-item {
+	box-sizing: border-box;
+  float: left;
+  width: 33%;
+  height: 200px;
+  /*background: #C09;*/
+  border: 10px solid hsla(0, 25%, 100%, 1);
+}
+
+.grid-item--width2 { 
+	width: 33%; 
+	height: 325px;
+}
+
+.map-frame {
+	border: 20px;
+	border-color: #737373;
+	width:80%;
+	height: 500px;
+	margin: 0 auto;
+	display: block;
+}
+
